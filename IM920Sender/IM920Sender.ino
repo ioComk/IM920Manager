@@ -7,7 +7,7 @@ const int TX = 9;
 SoftwareSerial IM920Serial(RX, TX);
 IM920Driver im920(&IM920Serial);
 
-byte val[5] = {1, 2, 3, 4, 5};
+byte val[5] = {1, 2, 3, 4, 10};
 String txda = "TXDA ";
 
 void setup() {
